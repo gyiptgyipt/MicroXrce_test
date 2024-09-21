@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/SubscribeHelloWorldClient.dir/main.c.o CMakeFiles/SubscribeHelloWorldClient.dir/HelloWorld.c.o -o SubscribeHelloWorldClient  -Wl,-rpath,/usr/local/lib ../../libmicroxrcedds_client.a -Wl,--gc-section,--no-export-dynamic /usr/local/lib/libmicrocdr.so.2.0.1 -lrt 
